@@ -6,7 +6,7 @@
 
 ## 背景
 
-这是一个 Claude Code Skill——**纳川 · 内容获取中间层**。本地 Git 仓库已完成初始化和首次提交（16 files, 1769 lines, branch: `main`）。
+这是一个 Claude Code Skill——**纳川 · Distill Everything**。本地 Git 仓库已完成初始化和首次提交（branch: `main`）。
 
 ## 任务
 
@@ -89,7 +89,7 @@ npx skills add wilsondd-lab/nachuan
 ```
 nachuan/
 ├── SKILL.md                           # 主编排文件（给 Claude 读）
-├── README.md                          # 说明文档（给人读，花叔风格）
+├── README.md                          # 说明文档（给人读）
 ├── README.en.md                       # 英文版
 ├── LICENSE                            # MIT
 ├── .gitignore
@@ -97,7 +97,7 @@ nachuan/
 │   ├── interview-templates.md         # 11 种场景模板
 │   ├── routing-matrix.md              # 完整路由矩阵
 │   ├── obsidian-vault-setup.md        # Obsidian vault 设置指南
-│   ├── path-a-persona-distillation.md
+│   ├── path-a-essence-distillation.md
 │   ├── path-b-structural-decomposition.md
 │   ├── path-c-knowledge-extraction.md
 │   ├── path-d-content-generation.md
