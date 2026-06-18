@@ -1,50 +1,69 @@
-![Nachuan.Skill · Distill Everything.Skill](assets/nachuan-first-image.svg)
+![Nachuan.skill · To be anyone, to be better you.](assets/nachuan-first-image.svg)
 
-# Nachuan.Skill · Distill Everything.Skill
+# Nachuan.skill
 
-> The sea never refuses water, therefore it becomes great.
+> To be anyone, to be better you.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-6C4DFF)](https://claude.com/code)
+[中文](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [العربية](README.ar.md)
 
-**Nachuan.Skill** is a Claude Code Skill for turning messy inputs into reusable knowledge, structure, and content assets.
+**Distill Everything.skill** is the English name of **Nachuan.skill**.
 
-Its English name is **Distill Everything.Skill**.
+Nachuan.skill is a universal material-distillation Skill for Claude Code. It turns PDFs, decks, webpages, transcripts, research packs, drafts, and scattered notes into reusable knowledge, structure, and content assets.
+
+It is not a pile of prompts. It is a workflow: scan first, route next, execute with the right pipeline, and keep the output reusable.
+
+---
+
+## Why Nachuan
+
+Nachuan means taking in many streams.
+
+Real work rarely arrives as clean input. It comes as mixed documents, screenshots, slides, links, transcripts, half-written ideas, and fragments. Nachuan.skill first reads what is there, then decides which route makes the material useful.
+
+**To be anyone, to be better you** does not mean copying another person. It means absorbing useful methods, structures, judgments, and expression patterns from many sources so your own work becomes stronger.
 
 ---
 
 ## Three Highlights
 
-### 1. Scan Before Asking
-
-Nachuan first reads the material type, scale, structure, keywords, and existing knowledge context. Then it asks with 2-4 clear options, not an open-ended prompt.
-
-### 2. Route, Don't Stack Prompts
-
-Different materials need different workflows. Nachuan routes work into four general pipelines: essence distillation, structure decomposition, knowledge extraction, and content generation.
-
-### 3. Turn Output Into Assets
-
-The result is not a one-off summary. Nachuan stores reusable notes, patterns, decisions, and generated assets as Markdown, ready for linking, search, and future reuse.
+| Highlight | Problem solved | What it feels like |
+|---|---|---|
+| **Scan before asking** | The user may not know what to ask when the input is messy | It gives a material overview, then 2-4 concrete processing options |
+| **Four routed pipelines** | Summary, structure, knowledge, and generation often get mixed together | Each route has a clear goal, output, and next step |
+| **Output becomes assets** | Many AI outputs disappear inside one chat | It stores reusable Markdown, tags, wikilinks, and templates |
 
 ---
 
-## Origin
+## Four Pipelines
 
-Nachuan.Skill was inspired by Huashu's Nuwa Skill. The key lesson was that a Skill can be more than a prompt: it can turn experience, judgment, and workflow into a reusable system.
+| Path | Name | Use it when | Typical output |
+|---|---|---|---|
+| **A** | Essence Distillation | You need core claims, judgments, and reusable principles | Executive summary, decision list, principle cards |
+| **B** | Structure Decomposition | You need to understand narrative, page, or argument structure | Structure map, expression pattern, reusable framework |
+| **C** | Knowledge Extraction | You want to turn material into a long-term knowledge base | Markdown notes, YAML tags, `[[wikilinks]]` |
+| **D** | Content Generation | You want new output based on extracted knowledge | Copy, scripts, outlines, explainers, templates, drafts |
 
-Built on that inspiration, Nachuan.Skill went through four or five real-world iterations and moved closer to frontline knowledge work. Its focus is the early messy stage: many materials, unclear intent, and the need to decide how the input should be processed before generating output. It is not tied to any industry or preset content style.
+Routes can be used alone, in parallel, or in sequence.
 
 ---
 
-## Pipelines
+## Workflow
 
-| Path | Name | Input | Output |
-|------|------|-------|--------|
-| **A** | Essence Distillation | Any material | Core claims, judgments, reusable principles |
-| **B** | Structure Decomposition | Decks, essays, webpages, proposals | Narrative structure, expression patterns, reusable frameworks |
-| **C** | Knowledge Extraction | Documents, reports, notes, source packs | Markdown notes, wikilinks, tags |
-| **D** | Content Generation | Extracted knowledge and structures | Copy, scripts, explainers, templates, drafts |
+1. **Drop in material**: documents, links, transcripts, notes, or a mixed pack.
+2. **Silent scan**: detect type, scale, structure, keywords, and potential value.
+3. **Choose a route**: get a recommended path plus alternatives.
+4. **Run the pipeline**: execute A/B/C/D alone, in parallel, or in sequence.
+5. **Keep the result**: store it as searchable, linkable, reusable Markdown.
+
+---
+
+## Output Format
+
+- **Markdown** for long-term readability
+- **YAML metadata** for classification and automation
+- **`[[wikilinks]]`** for Obsidian and graph-style notes
+- **Routing logs** to record what path was chosen and why
+- **Reusable assets** such as templates, scripts, outlines, and drafts
 
 ---
 
@@ -54,7 +73,7 @@ Built on that inspiration, Nachuan.Skill went through four or five real-world it
 npx skills add wilsondd-lab/nachuan
 ```
 
-Or manually:
+Manual install:
 
 ```bash
 mkdir -p ~/.claude/skills
@@ -64,14 +83,11 @@ git clone https://github.com/wilsondd-lab/nachuan.git
 
 ---
 
-## Storage
+## Origin
 
-Nachuan uses an Obsidian vault or any Markdown folder as its local knowledge backend:
+Nachuan.skill was inspired by Huashu's Nuwa Skill. The key lesson was that a Skill can be more than a prompt: it can turn experience, judgment, route selection, and workflow into a reusable system.
 
-- **Plain Markdown** for long-term readability
-- **wikilinks** with `[[note-name]]`
-- **YAML tags** for classification
-- **Git-friendly** local storage
+Built from that inspiration, Nachuan.skill went through four or five practical iterations and moved closer to real frontline knowledge work.
 
 ---
 
