@@ -6,7 +6,7 @@
 
 ## 背景
 
-这是一个 Claude Code Skill——**纳川 · Distill Everything**。本地 Git 仓库已完成初始化和首次提交（branch: `main`）。
+这是一个 Claude Code Skill——**纳川.Skill · Distill Everything.Skill**。本地 Git 仓库已完成初始化和首次提交（branch: `main`）。
 
 ## 任务
 

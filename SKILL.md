@@ -1,16 +1,18 @@
 ---
 name: nachuan
 description: |
-  纳川 · Distill Everything。任何内容汇入 → 静默扫描 → 选择题路由 → 四条通用管线加工 → 沉淀为 Markdown 知识、结构和生成资产。
+  纳川.Skill · Distill Everything.Skill。任何内容汇入 → 静默扫描 → 选择题路由 → 四条通用管线加工 → 沉淀为 Markdown 知识、结构和生成资产。
   触发词：「拆解」「分析」「提取」「萃取」「整理」「生成」「这个 PPT/文档/网页/转录里有什么」「帮我看看这个」。
   铁律：每次必问，但只问选择题。扫描内容后给倾向性建议，用户决策。
-version: 1.1.0
-tags: [content-routing, distill-everything, markdown-knowledge, local-first, 纳川]
+version: 1.2.0
+tags: [content-routing, distill-everything-skill, markdown-knowledge, local-first, 纳川]
 ---
 
-# 纳川 · Distill Everything
+# 纳川.Skill · Distill Everything.Skill
 
-**纳川** 是内容处理体系的入口层。任何材料进入后，先扫描信号，再给出明确选项，最后调度到通用管线执行。目标不是一次性总结，而是把输入沉淀为可复用的知识、结构和内容资产。
+**纳川.Skill** 是内容处理体系的入口层。任何材料进入后，先扫描信号，再给出明确选项，最后调度到通用管线执行。目标不是一次性总结，而是把输入沉淀为可复用的知识、结构和内容资产。
+
+纳川.Skill 受花叔女娲 Skill 启发，并在真实工作场景中迭代了四五轮。它不绑定任何行业，也不预设固定内容风格；它关注的是一线任务里最常见的前段问题：先判断材料该怎么处理，再进入合适的加工管线。
 
 ---
 

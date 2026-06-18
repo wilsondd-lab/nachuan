@@ -1,13 +1,13 @@
-# 纳川 · Distill Everything
+# 纳川.Skill · Distill Everything.Skill
 
 > 海不辞水，故能成其大。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-6C4DFF)](https://claude.com/code)
 
-**纳川** 是一个 Claude Code Skill，也是一个内容处理入口：把任何材料丢进来，它先扫描、再分流、再沉淀，把混乱输入变成可复用的知识、结构和表达资产。
+**纳川.Skill** 是一个 Claude Code Skill，也是一个内容处理入口：把任何材料丢进来，它先扫描、再分流、再沉淀，把混乱输入变成可复用的知识、结构和表达资产。
 
-英文名叫 **Distill Everything**。
+英文名叫 **Distill Everything.Skill**。
 
 ---
 
@@ -24,6 +24,14 @@
 ### 3. 结果沉淀为资产
 
 输出不是一次性摘要。纳川会把结论写成 Markdown 笔记、结构模式、任务记录和生成素材，放进本地知识库，方便后续检索、链接和再创作。
+
+---
+
+## 来源与定位
+
+纳川.Skill 的启蒙来自花叔的女娲 Skill。它让我意识到：Skill 不只是提示词，也不只是技巧合集，而是可以把经验、判断和工作流沉淀成可调用的系统。
+
+在这个启发之上，纳川.Skill 结合真实工作场景迭代了四五轮，逐渐把重点收敛到更贴近一线需要的前段问题：材料很多、目标还不清楚、用户需要先知道“该怎么处理”。所以它不绑定任何行业，也不预设某种内容风格，而是先判断输入，再选择加工管线。
 
 ---
 
