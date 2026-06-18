@@ -1,3 +1,5 @@
+![Nachuan.Skill · Distill Everything.Skill](assets/nachuan-first-image.svg)
+
 # Nachuan.Skill · Distill Everything.Skill
 
 > The sea never refuses water, therefore it becomes great.

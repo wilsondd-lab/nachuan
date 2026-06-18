@@ -1,3 +1,5 @@
+![纳川.Skill · Distill Everything.Skill](assets/nachuan-first-image.svg)
+
 # 纳川.Skill · Distill Everything.Skill
 
 > 海不辞水，故能成其大。
