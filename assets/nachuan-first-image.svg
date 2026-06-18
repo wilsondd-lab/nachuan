@@ -1,150 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title desc">
   <title id="title">纳川.skill · To be anyone, to be better you.</title>
-  <desc id="desc">A GitHub README hero visual showing content flowing through scan, route, distill, and reusable Markdown output pipelines.</desc>
+  <desc id="desc">A GitHub README hero visual for Nachuan.skill, showing scattered ideas flowing into routed knowledge assets.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fbfefd"/>
-      <stop offset="0.56" stop-color="#f4fbfa"/>
-      <stop offset="1" stop-color="#eef8f7"/>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.52" stop-color="#0ea5a3"/>
+      <stop offset="1" stop-color="#d99a32"/>
     </linearGradient>
-    <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f9fab"/>
-      <stop offset="1" stop-color="#2fbf86"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3faf8"/>
     </linearGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0f1f24"/>
-      <stop offset="1" stop-color="#17343b"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0a2d34" flood-opacity="0.13"/>
+    <filter id="softShadow" x="-20%" y="-24%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12343a" flood-opacity="0.12"/>
     </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#d9e7e5" stroke-width="1" opacity="0.55"/>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#dbe7e5" stroke-width="1" opacity="0.55"/>
     </pattern>
     <style>
       .font { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
       .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
-      .ink { fill: #102328; }
-      .muted { fill: #5d7478; }
-      .flow { stroke: url(#aqua); stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-      .chip { fill: #ffffff; stroke: #d5e6e2; stroke-width: 1.2; }
-      .tiny { font-size: 18px; letter-spacing: 0; }
+      .ink { fill: #10262b; }
+      .muted { fill: #60777b; }
+      .teal { fill: #0f766e; }
+      .amber { fill: #b7791f; }
+      .panel { fill: url(#panel); stroke: #d7e7e4; stroke-width: 1.4; }
+      .line { stroke: #c9ddda; stroke-width: 1.4; fill: none; }
+      .river { stroke: url(#river); stroke-width: 9; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .riverThin { stroke: url(#river); stroke-width: 3; fill: none; stroke-linecap: round; opacity: 0.7; }
     </style>
   </defs>
 
-  <rect width="1600" height="800" rx="44" fill="url(#bg)"/>
-  <rect width="1600" height="800" rx="44" fill="url(#grid)" opacity="0.58"/>
-  <path d="M0 668 C220 620 336 710 550 664 C760 618 856 520 1045 550 C1262 585 1368 710 1600 620 L1600 800 L0 800 Z" fill="#e9f7f5" opacity="0.74"/>
+  <rect width="1600" height="800" rx="36" fill="#f8fbfa"/>
+  <rect width="1600" height="800" rx="36" fill="url(#grid)" opacity="0.7"/>
+  <path d="M0 680 C210 630 330 710 520 662 C720 612 866 544 1046 584 C1260 632 1378 714 1600 650 L1600 800 L0 800 Z" fill="#edf7f5"/>
 
   <g class="font">
-    <g transform="translate(104 86)">
-      <rect x="0" y="0" width="202" height="40" rx="20" fill="#e9f7f5" stroke="#c6e5df"/>
-      <circle cx="24" cy="20" r="6" fill="#24b6a8"/>
-      <text x="43" y="26" class="mono tiny" fill="#31585d">Claude Code Skill</text>
+    <g transform="translate(94 76)">
+      <rect x="0" y="0" width="236" height="42" rx="21" fill="#eef9f6" stroke="#c7e7e1"/>
+      <circle cx="25" cy="21" r="6" fill="#0f766e"/>
+      <text x="45" y="27" class="mono" font-size="18" fill="#315c60">Claude Code Skill</text>
 
-      <text x="0" y="132" font-size="86" font-weight="760" class="ink">纳川.skill</text>
-      <text x="4" y="196" font-size="42" font-weight="720" fill="#1b5660">To be anyone,</text>
-      <text x="4" y="248" font-size="42" font-weight="720" fill="#1b5660">to be better you.</text>
-      <text x="4" y="294" font-size="24" font-weight="520" class="muted">Distill Everything.skill · scan, route, distill, reuse</text>
+      <text x="0" y="130" font-size="88" font-weight="780" class="ink">纳川.skill</text>
+      <text x="3" y="184" font-size="30" font-weight="650" class="teal">Distill Everything.skill</text>
+      <text x="3" y="238" font-size="38" font-weight="720" class="ink">To be anyone,</text>
+      <text x="3" y="288" font-size="38" font-weight="720" class="ink">to be better you.</text>
 
-      <g transform="translate(0 334)">
-        <rect width="592" height="60" rx="18" fill="#11252b"/>
-        <text x="26" y="38" class="mono" font-size="20" fill="#b7fff0">npx skills add wilsondd-lab/nachuan</text>
+      <g transform="translate(3 332)">
+        <text x="0" y="0" font-size="22" font-weight="760" fill="#0f766e">当想法很多，路径很少</text>
+        <text x="0" y="36" font-size="22" font-weight="760" fill="#0f766e">当材料很多，结构还没来</text>
+        <text x="0" y="72" font-size="22" font-weight="760" fill="#0f766e">当你要的不是总结，而是下一步</text>
       </g>
 
-      <g transform="translate(0 444)">
-        <text x="0" y="0" font-size="20" font-weight="760" fill="#1a7b83">THREE HIGHLIGHTS</text>
-        <g transform="translate(0 28)">
-          <rect width="200" height="84" rx="18" fill="#ffffff" stroke="#d9e9e6"/>
-          <path d="M25 28 h30 M25 43 h64 M25 58 h46" stroke="#1aa7b5" stroke-width="5" stroke-linecap="round"/>
-          <text x="92" y="39" font-size="24" font-weight="720" class="ink">先扫再问</text>
-          <text x="92" y="65" class="tiny muted">scan first</text>
-        </g>
-        <g transform="translate(224 28)">
-          <rect width="234" height="84" rx="18" fill="#ffffff" stroke="#d9e9e6"/>
-          <path d="M31 23 L58 42 L31 61" fill="none" stroke="#35bf93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-          <text x="88" y="39" font-size="24" font-weight="720" class="ink">路由加工</text>
-          <text x="88" y="65" class="tiny muted">not prompt piles</text>
-        </g>
-        <g transform="translate(482 28)">
-          <rect width="234" height="84" rx="18" fill="#ffffff" stroke="#d9e9e6"/>
-          <path d="M27 25 h54 v40 h-54 z M38 38 h30 M38 52 h20" fill="none" stroke="#e39c3d" stroke-width="4" stroke-linecap="round"/>
-          <text x="100" y="39" font-size="24" font-weight="720" class="ink">资产沉淀</text>
-          <text x="100" y="65" class="tiny muted">reuse</text>
-        </g>
-      </g>
-
-      <text x="0" y="650" class="tiny muted">启蒙于花叔的女娲 Skill，并在真实工作场景中多轮迭代。</text>
+      <text x="3" y="596" font-size="18" class="muted">Inspired by Huashu's Nuwa Skill · refined through real work</text>
     </g>
 
-    <g transform="translate(820 86)" filter="url(#shadow)">
-      <rect x="0" y="0" width="706" height="616" rx="36" fill="#ffffff" stroke="#d8e9e6"/>
-      <g transform="translate(44 42)">
-        <text x="0" y="0" font-size="20" font-weight="760" fill="#1a7b83">CONTENT ROUTING MAP</text>
-        <text x="0" y="38" class="mono tiny muted">Scan. Route. Distill. Reuse.</text>
+    <path class="riverThin" d="M220 538 C405 514 520 488 695 416"/>
+    <path class="riverThin" d="M342 590 C498 568 590 514 704 432"/>
+    <path class="riverThin" d="M548 526 C626 502 678 468 727 432"/>
+    <path class="river" d="M190 622 C405 604 578 515 758 404 C854 346 970 332 1068 362"/>
+
+    <g transform="translate(94 546)" filter="url(#softShadow)">
+      <rect width="610" height="60" rx="10" fill="#10262b"/>
+      <text x="26" y="38" class="mono" font-size="20" fill="#b8fff0">npx skills add wilsondd-lab/nachuan</text>
+    </g>
+
+    <g transform="translate(700 292)" filter="url(#softShadow)">
+      <circle cx="116" cy="116" r="112" fill="#ffffff" stroke="#cde4df" stroke-width="2"/>
+      <circle cx="116" cy="116" r="72" fill="#ecfbf8" stroke="#9bd8cf" stroke-width="2"/>
+      <text x="116" y="108" text-anchor="middle" font-size="34" font-weight="780" class="teal">纳川</text>
+      <text x="116" y="142" text-anchor="middle" font-size="18" class="muted">scan · route · distill</text>
+    </g>
+
+    <g transform="translate(1006 86)" filter="url(#softShadow)">
+      <rect width="494" height="600" rx="22" class="panel"/>
+      <text x="34" y="58" font-size="20" font-weight="760" class="teal">FROM CHAOS TO PATH</text>
+      <text x="34" y="91" class="mono muted" font-size="18">idea → structure → asset</text>
+
+      <g transform="translate(34 132)">
+        <rect width="426" height="82" rx="10" fill="#ffffff" stroke="#d8e8e5"/>
+        <text x="24" y="35" font-size="25" font-weight="760" class="ink">01 · 把混沌变成选择</text>
+        <text x="24" y="62" font-size="17" class="muted">材料画像 · 推荐路线 · 备选路径</text>
       </g>
 
-      <g transform="translate(50 116)">
-        <rect x="0" y="0" width="154" height="48" rx="14" class="chip"/>
-        <text x="24" y="31" class="mono tiny" fill="#314e54">PDF</text>
-        <rect x="22" y="72" width="154" height="48" rx="14" class="chip"/>
-        <text x="46" y="103" class="mono tiny" fill="#314e54">PPT</text>
-        <rect x="0" y="144" width="154" height="48" rx="14" class="chip"/>
-        <text x="24" y="175" class="mono tiny" fill="#314e54">WEB</text>
-        <rect x="22" y="216" width="154" height="48" rx="14" class="chip"/>
-        <text x="46" y="247" class="mono tiny" fill="#314e54">NOTES</text>
-        <text x="14" y="308" class="tiny muted">any material</text>
+      <g transform="translate(34 238)">
+        <rect width="426" height="82" rx="10" fill="#ffffff" stroke="#d8e8e5"/>
+        <text x="24" y="35" font-size="25" font-weight="760" class="ink">02 · 把想法变成路径</text>
+        <text x="24" y="62" font-size="17" class="muted">精华萃取 · 结构拆解 · 知识提取 · 内容生成</text>
       </g>
 
-      <path class="flow" d="M232 140 C296 148 310 184 344 230"/>
-      <path class="flow" d="M252 212 C298 212 316 222 344 244"/>
-      <path class="flow" d="M232 284 C294 276 318 264 344 254"/>
-      <path class="flow" d="M252 356 C300 340 326 304 344 266"/>
-
-      <g transform="translate(318 214)">
-        <circle cx="64" cy="64" r="64" fill="#ecfbf9" stroke="#8dded6" stroke-width="2.2"/>
-        <circle cx="64" cy="64" r="36" fill="url(#aqua)"/>
-        <text x="64" y="58" text-anchor="middle" font-size="17" font-weight="800" fill="#ffffff">SCAN</text>
-        <text x="64" y="80" text-anchor="middle" font-size="17" font-weight="800" fill="#ffffff">ROUTE</text>
+      <g transform="translate(34 344)">
+        <rect width="426" height="82" rx="10" fill="#ffffff" stroke="#d8e8e5"/>
+        <text x="24" y="35" font-size="25" font-weight="760" class="ink">03 · 把输出变成资产</text>
+        <text x="24" y="62" font-size="17" class="muted">Markdown · tags · wikilinks · route logs</text>
       </g>
 
-      <path class="flow" d="M446 258 C494 216 512 158 552 140"/>
-      <path class="flow" d="M446 272 C500 250 512 230 552 222"/>
-      <path class="flow" d="M446 286 C500 308 512 330 552 344"/>
-      <path class="flow" d="M446 300 C500 354 512 404 552 426"/>
-
-      <g transform="translate(532 108)">
-        <g>
-          <rect width="226" height="66" rx="18" fill="#f9fffe" stroke="#bfe3dd"/>
-          <text x="24" y="42" font-size="28" font-weight="820" fill="#1696a5">A</text>
-          <text x="68" y="30" font-size="22" font-weight="730" class="ink">精华萃取</text>
-          <text x="68" y="52" class="tiny muted">essence</text>
-        </g>
-        <g transform="translate(0 82)">
-          <rect width="226" height="66" rx="18" fill="#f9fffe" stroke="#bfe3dd"/>
-          <text x="24" y="42" font-size="28" font-weight="820" fill="#1696a5">B</text>
-          <text x="68" y="30" font-size="22" font-weight="730" class="ink">结构拆解</text>
-          <text x="68" y="52" class="tiny muted">structure</text>
-        </g>
-        <g transform="translate(0 204)">
-          <rect width="226" height="66" rx="18" fill="#f9fffe" stroke="#bfe3dd"/>
-          <text x="24" y="42" font-size="28" font-weight="820" fill="#1696a5">C</text>
-          <text x="68" y="30" font-size="22" font-weight="730" class="ink">知识提取</text>
-          <text x="68" y="52" class="tiny muted">knowledge</text>
-        </g>
-        <g transform="translate(0 286)">
-          <rect width="226" height="66" rx="18" fill="#f9fffe" stroke="#bfe3dd"/>
-          <text x="24" y="42" font-size="28" font-weight="820" fill="#1696a5">D</text>
-          <text x="68" y="30" font-size="22" font-weight="730" class="ink">内容生成</text>
-          <text x="68" y="52" class="tiny muted">creation</text>
-        </g>
-      </g>
-
-      <g transform="translate(64 464)">
-        <rect x="0" y="0" width="574" height="104" rx="24" fill="url(#ink)"/>
-        <text x="28" y="35" class="mono tiny" fill="#98eee5"># reusable-markdown</text>
-        <text x="28" y="66" class="mono" font-size="20" fill="#ffffff">[[route-log]]  [[templates]]  [[patterns]]</text>
-        <text x="28" y="91" class="mono tiny" fill="#9fc0c4">notes / tags / wikilinks / generated assets</text>
+      <g transform="translate(34 470)">
+        <rect width="426" height="78" rx="10" fill="#10262b"/>
+        <text x="24" y="32" class="mono" font-size="17" fill="#9ef4e6">[[route-log]]  [[knowledge]]  [[templates]]</text>
+        <text x="24" y="58" class="mono" font-size="16" fill="#d8fffa">reusable work assets, not one-off answers</text>
       </g>
     </g>
   </g>
